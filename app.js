@@ -10,7 +10,7 @@ const cors = require('cors');
 const fileUpload = require('express-fileupload');
 
 
-mongoose.connect('',{useNewUrlParser:true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://harshil:harshil120@cluster0.avj5fjs.mongodb.net/?retryWrites=true&w=majority');
 
 
 mongoose.connection.on('error',err=>{
